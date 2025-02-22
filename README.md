@@ -39,12 +39,11 @@ GIF created with Kap
 
 ## Notes
 
-Describe any challenges encountered while building the app:
 Contemplated so many times on how the design should look like, also had to refer to the mozilla web docs for the CSS. Really the only thing troubling was the CSS.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Timothy Dacalos]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
