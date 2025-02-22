@@ -1,35 +1,84 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Card from "./components/Card";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <h1>Top 10 Anime on MyAnimeList</h1>
+      <div className="background">
+        <Card
+          image="https://cdn.myanimelist.net/images/anime/1015/138006.jpg"
+          name="Sousou no Frieren"
+          season="Fall 2023"
+          rating="☆9.31"
+          link="https://myanimelist.net/anime/52991/Sousou_no_Frieren"
+        />
+        <Card
+          image="https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
+          name="Fullmetal Alchemist: Brotherhood"
+          season="Spring 2009"
+          rating="☆9.10"
+          link="https://myanimelist.net/anime/5114/"
+        />
+        <Card
+          image="https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
+          name="Fullmetal Alchemist: Brotherhood"
+          season="Spring 2009"
+          rating="☆9.31"
+          link="https://myanimelist.net/anime/5114/"
+        />
+        <Card
+          image="https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
+          name="Fullmetal Alchemist: Brotherhood"
+          season="Spring 2009"
+          rating="☆9.31"
+          link="https://myanimelist.net/anime/5114/"
+        />
+        <Card
+          image="https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
+          name="Fullmetal Alchemist: Brotherhood"
+          season="Spring 2009"
+          rating="☆9.31"
+          link="https://myanimelist.net/anime/5114/"
+        />
+        <Card
+          image="https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
+          name="Fullmetal Alchemist: Brotherhood"
+          season="Spring 2009"
+          rating="☆9.31"
+          link="https://myanimelist.net/anime/5114/"
+        />
+        <Card
+          image="https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
+          name="Fullmetal Alchemist: Brotherhood"
+          season="Spring 2009"
+          rating="☆9.31"
+          link="https://myanimelist.net/anime/5114/"
+        />
+        <Card
+          image="https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
+          name="Fullmetal Alchemist: Brotherhood"
+          season="Spring 2009"
+          rating="☆9.31"
+          link="https://myanimelist.net/anime/5114/"
+        />
+        <Card
+          image="https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
+          name="Fullmetal Alchemist: Brotherhood"
+          season="Spring 2009"
+          rating="☆9.31"
+          link="https://myanimelist.net/anime/5114/"
+        />
+        <Card
+          image="https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
+          name="Fullmetal Alchemist: Brotherhood"
+          season="Spring 2009"
+          rating="☆9.31"
+          link="https://myanimelist.net/anime/5114/"
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
