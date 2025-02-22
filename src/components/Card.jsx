@@ -7,9 +7,11 @@ const Card = (props) => {
       <h2>{props.name}</h2>
       <h3>{props.season}</h3>
       <h4>{props.rating}</h4>
-      <a href={props.link} target="_blank" rel="noopener noreferrer">
-        <button>Link</button>
-      </a>
+      <div>
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
+          Link
+        </a>
+      </div>
     </div>
   );
 };
