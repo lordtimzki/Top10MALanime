@@ -15,8 +15,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
+- [x] Buttons or links to a related resources are on each card component
+- [x] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
@@ -30,7 +30,7 @@ Here's a walkthrough of implemented required features:
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
+GIF created with Kap
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
@@ -39,7 +39,8 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app:
+Contemplated so many times on how the design should look like, also had to refer to the mozilla web docs for the CSS. Really the only thing troubling was the CSS.
 
 ## License
 
